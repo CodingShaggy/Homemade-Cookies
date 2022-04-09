@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Judson', serif;
+}
+
+body{
+    background-color: #FDF6EC;
+}
+
+.header{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*.nav{
+width: 250px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}*/
+
+a{
+    text-decoration: none;
+}
+
+.fl{
+    font-size: 20px;
+    color: #653308;
+    margin-right: 30px;
+}
+.fl:hover{
+    text-decoration: underline;
+    color: #653308;
+}
+
+
+.btn{
+width: 120px;
+height: 40px;
+font-size: 20px;
+color: white;
+border-radius: 10px;
+background-color: #653308;
+border-style: none;
+cursor: pointer;
+margin-right: 30px;
+}
+
+.logo{
+    margin-left: 20px;
+    width: 200px;
+    height: auto;
+}
+
+.container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.pic{
+    width: 350px;
+    height: auto;
+    border: 5px solid #653308;
+    border-radius: 20px;
+}
+
+.text{
+    width: 400px;
+    height: auto;
+    color: #653308;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+h1{
+    margin-bottom: 15px; 
+}
+
+p{
+    margin-bottom: 25px; 
+    font-size: 20px;
+}
+
+.btnbox{
+    margin-bottom: 25px; 
+}
+
+.btn1{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: #653308;
+    border-style: none;
+    cursor: pointer;
+    margin-right: 30px;
+    }
+
+    .ct{
+        font-size: 20px;
+        color: #653308;
+        margin-right: 30px;
+    }
+    .ct:hover{
+        text-decoration: underline;
+        color: #653308;
+    }
+
+    @media(max-width: 800px){
+        .container{
+            height: auto;
+        } 
+
+        .pic{
+            width: 250px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .text{
+            width: 250px;
+            height: auto;
+        }
+    }
+
+    @media(max-width: 500px){
+
+        .logo{
+            width: 100px;
+            height: auto;
+        }
+        .container{
+            height: auto;
+        } 
+
+        .pic{
+            width: 250px;
+            height: auto;
+        }
+
+        .text{
+            width: 250px;
+            height: auto;
+        }
+        .fl{
+            display: none;
+        }
+
+        .ct{
+           display: none;
+    }
+    .btn1{
+
+        .btn{
+            width: 90px;
+            height: 30px;
+            }
+}
